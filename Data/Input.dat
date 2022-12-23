@@ -1,0 +1,58 @@
+# Total number of days
+3650
+
+# Number of concretes
+1
+
+# Concrete 0
+# Properties (fck in MPa, concreting date in days, aggregate factor, relative humidity, cement class)
+30.0	0	1.0		0.7	325N
+
+# Number of boundaries
+2
+
+# Boundary 0 - positive
+# Number of coordinates
+10
+
+# Cross section coordinates
+0.00    0.00
+3.72    0.45
+4.11    2.40
+4.41    2.63
+5.91    2.93
+5.91    3.13
+-2.19   2.32
+-2.19   2.12
+-0.69   2.12
+-0.39   1.95
+
+# Boundary 1 - negative
+# Number of coordinates
+8
+
+# Cross section coordinates
+0.54    0.87
+0.31    2.02
+0.61    2.25
+3.11    2.50
+3.41    2.33
+3.18    1.18
+2.52    0.805
+1.20    0.645
+
+# Number of rebars
+4
+
+# Rebar coordinates (y, z) and properties (area in m2, fyk in MPa, Es in MPa)
+1.05	1.05	0.0008	500.0	210000.0
+1.95	1.05	0.0008	500.0	210000.0
+1.95	2.95	0.0008	500.0	210000.0
+1.05	2.95	0.0008	500.0	210000.0
+
+# Number of tendons
+2
+
+# Tendon coordinates (y, z), forces (N, My, Mz) - (in kN and m), initial time in days, area in m2, fpk in MPa, Es in MPa
+1.5	1.5	200.0	100.0	0.0		3	0.00127	1900000.0 210000.0
+1.5	1.5	200.0	100.0	0.0		10	0.00127	1900000.0 210000.0
